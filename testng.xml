@@ -4,7 +4,7 @@
     <test name="Automation Testing">
         <classes>
             <!-- Use your actual package +class name -->
-            <class name="UserManagement.DropDown"> </class>
+            <class name="AdminPanel.UserRoute"> </class>
         </classes>
     </test>
 </suite>
