@@ -4,7 +4,7 @@
     <test name="Automation Testing">
         <classes>
             <!-- Use your actual package +class name -->
-            <class name="AdminPanel.UserRoute"> </class>
+            <class name="AdminPanel.SupportTicket"> </class>
         </classes>
     </test>
 </suite>
