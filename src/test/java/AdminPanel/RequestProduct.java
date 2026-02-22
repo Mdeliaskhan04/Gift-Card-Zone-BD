@@ -78,7 +78,6 @@ public class RequestProduct extends BaseTest {
         ClearFilters.click();
     }
 
-
     @Test(priority = 5,description = "Verify that admin can download request product list in excel format")
     public void verifyAdminCanDownloadRequestProductListInExcelFormat() {
         page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Req Product")).click();
