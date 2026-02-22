@@ -1,0 +1,1 @@
+{"uuid":"0a105a79-77b4-47bd-8769-d5027697ffb2","name":"base.ValidLogin.setup","children":["a54ac76b-7c18-4919-b13c-588380245ac9"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1771748947203,"stop":1771748982151}],"afters":[],"start":1771748947202,"stop":1771748982182}
