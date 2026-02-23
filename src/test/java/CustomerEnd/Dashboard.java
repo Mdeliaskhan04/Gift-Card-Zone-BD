@@ -33,5 +33,9 @@ public class Dashboard extends ValidLogin {
         page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Success")).click();
         page.navigate("https://gift.algosoftbd.com/control-panel?payment_status=success&payment_text=Payment+successful");
     }
-
+   @Test(priority = 3,description = "Verify that user can see the Redeem page")
+    public void verifyRedeemPage(){
+       page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Redeem")).click();
+       page.navigate("https://gift.algosoftbd.com/control-panel");
+    }
 }
