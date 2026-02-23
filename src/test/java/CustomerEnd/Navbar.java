@@ -3,6 +3,7 @@ package CustomerEnd;
 import base.ValidLogin;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import com.microsoft.playwright.assertions.PlaywrightAssertions;
 import com.microsoft.playwright.options.AriaRole;
 import org.testng.annotations.Test;
 
@@ -14,6 +15,7 @@ public class Navbar extends ValidLogin {
 
         // Click on the GCZBD Logo & verify that user is navigated to the homepage successfully
         page.getByRole(AriaRole.IMG, new Page.GetByRoleOptions().setName("Gift-Cards-Zone-BD")).first().click();
+
         String ActualPageTitle = page.title();
         System.out.println("Actual Page Title: " + ActualPageTitle);
         String ExpectedPageTitle = "Gift Cards, Games Top Up & More | Instant Delivery";
